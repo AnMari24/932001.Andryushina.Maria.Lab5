@@ -1,0 +1,76 @@
+body, html{
+height: 100%;
+width: 100%;
+margin: 0px;
+font-family: Arial;
+}
+.all{
+z-index: 2;
+background: rgba(255, 255, 255, 0.8);
+display: none;
+width: 100vw;
+height: 100vh;
+position: absolute;
+}
+#window{
+font-size: 13px;
+width: 405px;
+height: 200px;
+color: black;
+background: #e1ff73;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 22px 20px 15px 20px;
+}
+.content{
+font-size:13px;
+z-index: 1;
+}
+#head{
+margin: 0px;
+}
+.question{
+margin: 5px 0px 10px 0px;
+}
+.block{
+margin-left: 26%;
+margin-right: 26%;
+border-left: solid 2px #dcdcdc;
+border-right: solid 2px #dcdcdc;
+border-bottom: solid 2px black;
+padding: 10px 15px 15px 15px;
+background-color: #b3fffd;
+}
+button{
+position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+width: 170px;
+height: 25px;
+color: white;
+border-radius: 2px;
+padding: 5px;
+background: transparent;
+cursor: pointer;
+transition: all 0.3s ease;
+position: relative;
+display: inline-block;
+font-size: 11px;
+box-shadow: 0 0 3px 1px gray;
+outline: none;
+}
+.btn{
+background: #00ff00;
+background: linear-gradient(0, #008d00, #00f900);
+border: none;
+}
+.btn:hover{
+background: #008d00;
+background: linear-gradient(0, #006600, #008d00);
+}
+#window h1{
+text-align: center;
+margin: 0px 0px 30px 0px;
+}
